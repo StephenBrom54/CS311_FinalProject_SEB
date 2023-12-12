@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href=C:\Users\steph\OneDrive\Old\Desktop\CS311_FinalProject_SEB\CS\stylesheet.css>
+        <title> Unit Converter</title>
+        <script src="JS/Properties.js"></script>
+
+    </head>
+    <body>
+        <h1>Unit Converter</h1>
+        <h2>Instructions for Using the Unit Conversion Webpage</h2>
+
+
+
+<ol>
+  <li><strong>Select the Conversion Type</strong>: Look for the list of radio buttons on the webpage. Each button represents a different type of unit conversion. Click on the radio button that corresponds to the type of conversion you want to perform.</li>
+  <li><strong>Enter the Value to Convert</strong>: Find the text box labeled "Enter value to convert". Click on this box and type in the numerical value that you want to convert.</li>
+  <li><strong>Perform the Conversion</strong>: Once you've selected the conversion type and entered the value to convert, click on the button labeled "Convert". The webpage will perform the conversion and display the result.</li>
+</ol>
+
+
+       
+        <form id="conversionForm">
+
+            <input type="radio" id="mToF" name="conversion" value="Meters to Feet">
+            <label for="mToF">Meters to Feet</label><br>
+          
+            <input type="radio" id="fToM" name="conversion" value="Feet to Meters">
+            <label for="fToM">Feet to Meters</label><br>
+          
+            <input type="radio" id="kmToMi" name="conversion" value="Kilometers to Miles">
+            <label for="kmToMi">Kilometers to Miles</label><br>
+          
+            <input type="radio" id="miToKm" name="conversion" value="Miles to Kilometers">
+            <label for="miToKm">Miles to Kilometers</label><br>
+          
+            <input type="radio" id="cToF" name="conversion" value="Celsius to Fahrenheit">
+            <label for="cToF">Celsius to Fahrenheit</label><br>
+          
+            <input type="radio" id="fToC" name="conversion" value="Fahrenheit to Celsius">
+            <label for="fToC">Fahrenheit to Celsius</label><br>
+          
+            <input type="radio" id="kgToLb" name="conversion" value="Kilogram to pounds">
+            <label for="kgToLb">Kilogram to pounds</label><br>
+          
+            <input type="radio" id="lbToKg" name="conversion" value="Pounds to Kilogram">
+            <label for="lbToKg">Pounds to Kilogram</label><br>
+          
+            <input type="radio" id="gToOz" name="conversion" value="Grams to Ounces">
+            <label for="gToOz">Grams to Ounces</label><br>
+          
+            <input type="radio" id="ozToG" name="conversion" value="Ounces to Grams">
+            <label for="ozToG">Ounces to Grams</label><br>
+
+
+
+            <input type="text" id="inputValue" placeholder="Enter value to convert">
+
+
+
+            <button type="button" onclick="performConversion()">Convert</button>
+          </form> 
+          
+
+
+
+
+         <output id="outputValue"></output>
+
+        
+
+
+
+
+
+
+
+
+
+
+    </body>
+    <footer>
+
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

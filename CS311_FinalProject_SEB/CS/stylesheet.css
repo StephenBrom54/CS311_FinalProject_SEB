@@ -1,0 +1,26 @@
+body {
+    background-color: powderblue;
+    text-align: left;
+  }
+  
+  h1 {
+    color: black;
+    text-align: center;
+  }
+  
+  p {
+    color: black;
+  }   
+  output{
+    color: red;
+    font-size: 36px;
+    text-align: center;
+     }
+h2{
+    text-align: left;
+}
+Form{
+text-align: center;
+font-size: 30px;
+
+}
